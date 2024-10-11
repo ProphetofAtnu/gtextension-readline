@@ -25,10 +25,9 @@ BaselineOfGTExtensionsCoderReadline >> baseline: spec [
 	^ spec
 		for: #common
 		do: [ spec
-				baseline: 'GToolkit4Pharo'
-				with: [ spec repository: 'github://feenkcom/gt4pharo:main/src'].
-			spec package: 'GTExtensions-Coder-Readline'
-				with: [
-					spec requires: #('GToolkit4Pharo')
-				]]
+				baseline: 'GToolkitCoder'
+					with: [ spec repository: 'github://feenkcom/gtoolkit-coder:main/src' ].
+			spec
+				package: 'GTExtensions-Coder-Readline'
+				with: [ spec requires: #('GToolkitCoder') ] ]
 ]
