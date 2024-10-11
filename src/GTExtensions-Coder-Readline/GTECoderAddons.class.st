@@ -4,7 +4,7 @@ Class {
 	#category : #'GTExtensions-Coder-Readline-Keymaps'
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #initalization }
 GTECoderAddons >> initialize [
 	super initialize.
 
