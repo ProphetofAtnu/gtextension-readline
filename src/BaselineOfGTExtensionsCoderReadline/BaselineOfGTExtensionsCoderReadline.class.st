@@ -23,6 +23,7 @@ BaselineOfGTExtensionsCoderReadline class >> loadLepiter [
 BaselineOfGTExtensionsCoderReadline >> baseline: spec [
 	<baseline>
 		^ spec for: #common do: [
+			spec baseline: 'GToolkit4Pharo' with: 'github://feenkcom/gt4pharo:main/src'.
 			spec package: 'GTExtensions-Coder-Readline'
 		]
 ]
