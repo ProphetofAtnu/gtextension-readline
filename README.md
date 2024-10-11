@@ -3,7 +3,7 @@
 
 ```st
 Metacello new
-	repository: '';
+	repository: 'github://ProphetOfAtnu/GTExtensions-Coder-Readline:master/src';
 	baseline: 'GTExtensionsCoderReadline';
 	load
 ```
