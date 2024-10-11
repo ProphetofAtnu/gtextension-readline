@@ -1,11 +1,11 @@
 Class {
-	#name : #GTECoderAddons,
+	#name : #GTECoderReadlineAddons,
 	#superclass : #GtCoderAddOns,
 	#category : #'GTExtensions-Coder-Readline-Keymaps'
 }
 
 { #category : #initalization }
-GTECoderAddons >> initialize [
+GTECoderReadlineAddons >> initialize [
 	super initialize.
 
 	self

@@ -1,3 +1,20 @@
+# Usage
+
+## Enable
+
+```st
+GTECoderReadlineExtensionInstaller refactorEnableKeybindingsInTextualCoder.
+```
+## Disable
+
+```st
+GTECoderReadlineExtensionInstaller refactorDisableKeybindingsInTextualCoder.
+```
+
+## Check Status
+```st
+GTECoderReadlineExtensionInstaller readlineEnabledInTextualCoder. 
+```
 
 ## Installation
 
