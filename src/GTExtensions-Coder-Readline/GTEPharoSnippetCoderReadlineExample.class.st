@@ -4,10 +4,18 @@ Class {
 	#category : #'GTExtensions-Coder-Readline-Examples'
 }
 
-{ #category : #'as yet unclassified' }
-GTEPharoSnippetCoderReadlineExample >> initializeReadlineKeybindingsFor: theAst into: coderAddOns [
-<gtAstCoderAddOns: 100>
-coderAddOns
-	addAddOns: GTECoderReadlineAddons new.
+{ #category : #addons }
+GTEPharoSnippetCoderReadlineExample >> initializeShortcuts: addOns [
+	super initializeShortcuts: addOns.
 
+	addOns
+		addShortcuts: {GTEReadlineShortcuts readlineForwardChar.
+				GTEReadlineShortcuts readlinePreviousChar.
+				GTEReadlineShortcuts readlineForwardLine.
+				GTEReadlineShortcuts readlinePreviousLine.
+				GTEReadlineShortcuts readlineForwardWord.
+				GTEReadlineShortcuts readlinePreviousWord.
+				GTEReadlineShortcuts readlineBeginningOfLine.
+				GTEReadlineShortcuts readlineEndOfLine.
+				GTEReadlineShortcuts readlineDeleteCharAfter}
 ]
