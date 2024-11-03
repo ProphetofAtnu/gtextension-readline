@@ -32,5 +32,5 @@ BaselineOfGTExtensionsCoderReadline >> baseline: spec [
 				with: [ spec repository: 'github://feenkcom/gt4pharo:main/src' ].
 			spec
 				package: 'GTExtensions-Coder-Readline'
-				with: [ spec requires: #('GToolkitCoder') ] ]
+				with: [ spec requires: #('GToolkitCoder' 'GToolkit-Pharo-Coder-Method') ] ]
 ]
