@@ -1,7 +1,7 @@
 Class {
 	#name : #GTEReadlineShortcuts,
 	#superclass : #Object,
-	#category : #'GTExtensions-Coder-Readline'
+	#category : #'GTExtensions-Coder-Readline-Readline Shortcuts'
 }
 
 { #category : #shortcuts }
@@ -11,7 +11,7 @@ GTEReadlineShortcuts class >> readlineBeginningOfLine [
 		combinationForMacOS: GTEReadlineCombinations readlineBeginningOfLine
 ]
 
-{ #category : #shorcuts }
+{ #category : #shortcuts }
 GTEReadlineShortcuts class >> readlineDeleteCharAfter [
 	^ BrEditorShortcut deleteOneLetterAfterCursor
 		combination: GTEReadlineCombinations readlineDeleteCharAfter

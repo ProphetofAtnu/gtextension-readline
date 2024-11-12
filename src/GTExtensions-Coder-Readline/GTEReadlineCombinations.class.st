@@ -1,7 +1,7 @@
 Class {
 	#name : #GTEReadlineCombinations,
 	#superclass : #Object,
-	#category : #'GTExtensions-Coder-Readline'
+	#category : #'GTExtensions-Coder-Readline-Readline Shortcuts'
 }
 
 { #category : #shortcuts }
@@ -9,7 +9,7 @@ GTEReadlineCombinations class >> readlineBeginningOfLine [
 	^ BlKeyCombination builder control a build
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #shorcuts }
 GTEReadlineCombinations class >> readlineDeleteCharAfter [
 	^ BlKeyCombination builder control d build
 ]

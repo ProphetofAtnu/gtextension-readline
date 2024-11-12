@@ -1,7 +1,7 @@
 Class {
 	#name : #GTECoderReadlineAddons,
 	#superclass : #GtCoderAddOns,
-	#category : #'GTExtensions-Coder-Readline-Keymaps'
+	#category : #'GTExtensions-Coder-Readline-Coder Addons'
 }
 
 { #category : #initalization }
